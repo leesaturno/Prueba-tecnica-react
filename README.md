@@ -1,8 +1,31 @@
-# React + Vite
+# Frontend | Prueba Técnica Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Repositorio para Prueba Técnica Frontend. Desarrollado con React 17.0.2
 
-Currently, two official plugins are available:
+### Pre-requisitos 📋
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```
+node 18.19.0
+Git
+```
+[node 18.19.0](https://nodejs.org/download/release/v18.19.0/)
+
+### Despliegue en local 🔧
+
+Clonamos el proyecto a través de Git (en la carpeta raíz definida en Laragon)
+```
+git clone https://github.com/10codeSoftware/tutraducesfront.git
+```
+```
+Es necesario tener yarn instalado.<br>
+Ejecutamos yarn para la incorporación de dependencias (desde la rama develop)
+
+```
+yarn
+```
+
+Ejecutamos el comando yarn dev:
+
+```
+yarn dev
+```
