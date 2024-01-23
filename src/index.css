@@ -1,3 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +8,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #213547;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +31,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-image: radial-gradient(hsla(0, 89%, 34%, 0.284) 1px,transparent 0),radial-gradient(hsla(0,0%,84.3%,.1) 1px,transparent 0);
+  background-size: 50px 50px;
+  background-position: 0 0,25px 25px;
+  -webkit-animation: slide 2s linear infinite;
+  animation: slide 4s linear infinite;
 }
 
 h1 {
